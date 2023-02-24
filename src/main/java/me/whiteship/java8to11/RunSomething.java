@@ -2,7 +2,7 @@ package me.whiteship.java8to11;
 
 @FunctionalInterface
 public interface RunSomething {
-    void doIt();
+    int doIt(int number);
 //    추상 메서드 하나만 있기 때문에 --> 함수형 인터페이스
 
 //    void doItAgain();
